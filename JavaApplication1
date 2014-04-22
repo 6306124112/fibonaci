@@ -30,13 +30,16 @@ public class JavaApplication1 {
         System.out.println(x);
         System.out.println(y);
         //int bil = 6;
+        int jml = 2;
         
         for (int i=1; i<=bil-2; i++){     
             a=x+y;
             System.out.println(a);
             x=y;
             y=a;
+            jml = a + jml;
         } 
+        System.out.println("jumlah : " + jml);
     }
     
 }
